@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #3B5998);
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.inicio{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.inicio .email,
+.inicio .contraseña{
+    padding-left: 10px;
+}
+.inicio .email,
+.inicio .contraseña{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.inicio .email input,
+.inicio .contraseña input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.inicio button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+.inicio button:hover{
+    background: #3B5998;
+}
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+    font-family: verdana;
+}
+.logo_body{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.logo_body .like_font{
+    font-family: arial;
+    font-size: 25px;
+    margin-left: -30px;
+}
+.logo_body .font1{
+    color: #083987;
+    margin-left: 20px;   
+    margin-bottom: 5px;
+}
+
+
+.registro{
+    font-family: arial;
+    position: absolute;
+    left: 57%;  
+}
+.registro .acceso{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.registro .gratis{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.registro .registroform input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.registro .registroform .apellido{
+    margin-left: 15px;
+}
+.registro .registroform .email,
+.registro .registroform .contraseña,
+.registro .registroform .contraseña2{
+    margin-top: 20px;
+    width: 410px;
+}
+.registro .registroform .cumple{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.registro .registroform .cumple_fecha{
+    margin-top: 5px;
+}
+.registro .registroform .mes,
+.registro .registroform .día,
+.registro .registroform .año{
+    height: 28px;
+}
+.registro .registroform .día,
+.registro .registroform .mes{
+    margin-left: -5px;
+}
+.registro .registroform .pregunta{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.registro .registroform a{
+    text-decoration: none;
+}
+.registro .signup_form a:hover{
+    text-decoration: underline;
+}
+.registro .registroform input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.registro .registroform input[value="Mujer"]{
+    margin-left: -100px;
+}
+.registro .registroform .font{
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.registro .registroform .font2{
+    margin-left: 150px;
+}
+.registro .registroform .acuerdo{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.registro .registroform .inscr{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+.registro .registroform .inscr:hover{
+    background: linear-gradient(#74b85e, #598B45);
+}
